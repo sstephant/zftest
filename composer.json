@@ -9,13 +9,15 @@
         }
     ],
     "require": {
-        "php": ">=5.4.*",
+        "php": ">=5.4",
         "zendframework/zendframework": "2.0.*",
-        "doctrine/common": "2.4.*",
+        "doctrine/common": "2.*",
         "phpunit/phpunit": "*",
         "phpunit/dbunit": "*",
         "phpmd/phpmd": "*",
         "squizlabs/php_codesniffer": "*",
-        "pdepend/pdepend" : "1.1.0" 
+        "pdepend/pdepend" : "1.1.0",
+        "phing/phing": "2.4.14",
+        "apigen/apigen": "*" 
     } 
 }
